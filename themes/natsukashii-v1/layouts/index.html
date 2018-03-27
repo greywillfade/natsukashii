@@ -1,1 +1,24 @@
+{{ partial "base" . }}
 {{ partial "header" . }}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            autoScrolling: false,
+            css3: true,
+            sectionsColor: ['#1BBC9B'],
+            fitToSection: false
+        });
+    });
+</script>
+
+    <div id="fullpage">
+    	<div class="section" id="section0">
+    		<div class="slide">
+                <h1>懐かしい</h1>
+                <h2>Natsukashii</h2>
+    		</div>
+    	</div>
+    </div>
+
+{{ partial "footer" . }}

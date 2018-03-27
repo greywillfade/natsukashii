@@ -1,7 +1,22 @@
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
+    font-weight: 400;
 }
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.3em;
+}
+
 h2 {
     font-size: 1.5em;
+}
+
+a {
+    color: white;
+    text-decoration-color: pink!important;
+    text-decoration-skip: ink;
+    text-decoration: underline;
+
 }

@@ -93,7 +93,8 @@ opacity: 0;
 }
 }
 
-/*End naniwa*/
+
+/* Ootsukishi*/
 .water {
 animation: slightmove 2s alternate 5;
 }
@@ -120,47 +121,49 @@ animation-delay: 0.8s;
 }
 
 @keyframes slightmove {
-0% {
-transform: rotate(0deg);
-}
-70% {
-  opacity: 0.7;
-}
-100% {
-transform: rotate(0.5deg);
-}
+    0% {
+        transform: rotate(0deg);
+    }
+    70% {
+      opacity: 0.7;
+      -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+    }
+    100% {
+        transform: rotate(0.5deg);
+    }
 }
 
 
 @keyframes cloudmove1 {
-50% {
-  opacity: 0.7;
-  transform: translate(-75px);
-}
-100% {
-  transform: translate(25px);
-}
+    50% {
+      opacity: 0.7;
+      transform: translate(-75px);
+    }
+    100% {
+      transform: translate(25px);
+    }
 }
 
 @keyframes cloudmove2 {
-0% {
+    0% {
 
-}
-70% {
-  opacity: 0.7;
-}
-100% {
-transform: translate(45px);
-}
+    }
+    70% {
+      opacity: 0.7;
+    }
+    100% {
+        transform: translate(30px);
+    }
 }
 
 
 @keyframes bgfader {
-0% {
-opacity: 1;
-}
+    0% {
+        opacity: 1;
+    }
 
-100% {
-opacity: 0;
-}
+    100% {
+        opacity: 0;
+    }
 }
