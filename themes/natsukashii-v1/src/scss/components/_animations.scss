@@ -1,0 +1,166 @@
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Naniwa-ku */
+.falldown {
+animation: sizechange 3s normal 1;
+}
+.spinl1 {
+animation: swirlyl1 3s normal 1;
+}
+.spinl2 {
+animation: swirlyl2 3s normal 1;
+}
+.spinr1 {
+animation: swirlyr1 3s normal 1;
+}
+.spinr2 {
+animation: swirlyr2 3s normal 1;
+}
+.bgfade {
+animation: bgfader 3s normal 1;
+}
+.delay1 {
+animation-delay: 0.2s;
+}
+.delay2 {
+animation-delay: 0.5s;
+}
+.delay3 {
+animation-delay: 0.8s;
+}
+
+@keyframes sizechange {
+0% {
+transform: scale(1.0);
+opacity: 1;
+}
+70% {
+  opacity: 0.7;
+}
+80% {
+  opacity: 0.2;
+}
+100% {
+transform: scale(1.5);
+opacity: 0;
+}
+}
+@keyframes swirlyl1 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(45deg);
+}
+}
+@keyframes swirlyl2 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(65deg);
+}
+}
+
+@keyframes swirlyr1 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(-15deg);
+}
+}
+
+@keyframes swirlyr2 {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(-25deg);
+}
+}
+
+@keyframes bgfader {
+0% {
+opacity: 1;
+}
+
+100% {
+opacity: 0;
+}
+}
+
+/*End naniwa*/
+.water {
+animation: slightmove 2s alternate 5;
+}
+
+.cloud {
+animation: cloudmove1 15s alternate 2;
+}
+
+.cloud2 {
+animation: cloudmove2 10s alternate 3;
+}
+
+.bgfade {
+animation: bgfader 3s normal 1;
+}
+.delay1 {
+animation-delay: 0.2s;
+}
+.delay2 {
+animation-delay: 0.5s;
+}
+.delay3 {
+animation-delay: 0.8s;
+}
+
+@keyframes slightmove {
+0% {
+transform: rotate(0deg);
+}
+70% {
+  opacity: 0.7;
+}
+100% {
+transform: rotate(0.5deg);
+}
+}
+
+
+@keyframes cloudmove1 {
+50% {
+  opacity: 0.7;
+  transform: translate(-75px);
+}
+100% {
+  transform: translate(25px);
+}
+}
+
+@keyframes cloudmove2 {
+0% {
+
+}
+70% {
+  opacity: 0.7;
+}
+100% {
+transform: translate(45px);
+}
+}
+
+
+@keyframes bgfader {
+0% {
+opacity: 1;
+}
+
+100% {
+opacity: 0;
+}
+}
