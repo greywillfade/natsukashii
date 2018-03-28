@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>{{ .Title }} | Natsukashii</title>
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}Natsukashii</title>
     <meta name="description" content="Illustrated memories of Japan, captured through manholes and train stamps">
     <meta name="keywords"  content="japan, sally, lait, illustration, natsukashii, 懐かしい, なつかしい, manholes, manhoru, eki stampu, stamps" />
     <meta name="author" content="Sally Lait">

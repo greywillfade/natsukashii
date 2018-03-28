@@ -5,22 +5,22 @@ svg {
 
 /*Naniwa-ku */
 .falldown {
-animation: sizechange 3s normal 1;
+animation: sizechange 3s normal infinite;
 }
 .spinl1 {
-animation: swirlyl1 3s normal 1;
+animation: swirlyl1 3s normal infinite;
 }
 .spinl2 {
-animation: swirlyl2 3s normal 1;
+animation: swirlyl2 3s normal infinite;
 }
 .spinr1 {
-animation: swirlyr1 3s normal 1;
+animation: swirlyr1 3s normal infinite;
 }
 .spinr2 {
-animation: swirlyr2 3s normal 1;
+animation: swirlyr2 3s normal infinite;
 }
 .bgfade {
-animation: bgfader 3s normal 1;
+animation: bgfader 3s normal infinite;
 }
 .delay1 {
 animation-delay: 0.2s;
@@ -84,41 +84,29 @@ transform: rotate(-25deg);
 }
 
 @keyframes bgfader {
-0% {
-opacity: 1;
-}
+    0% {
+    opacity: 1;
+    }
 
-100% {
-opacity: 0;
-}
+    100% {
+    opacity: 0;
+    }
 }
 
 
 /* Ootsukishi*/
 .water {
-animation: slightmove 2s alternate 5;
+animation: slightmove 2s alternate infinite;
 }
 
 .cloud {
-animation: cloudmove1 15s alternate 2;
+animation: cloudmove1 15s alternate infinite;
 }
 
 .cloud2 {
-animation: cloudmove2 10s alternate 3;
+animation: cloudmove2 10s alternate infinite;
 }
 
-.bgfade {
-animation: bgfader 3s normal 1;
-}
-.delay1 {
-animation-delay: 0.2s;
-}
-.delay2 {
-animation-delay: 0.5s;
-}
-.delay3 {
-animation-delay: 0.8s;
-}
 
 @keyframes slightmove {
     0% {
@@ -127,7 +115,7 @@ animation-delay: 0.8s;
     70% {
       opacity: 0.7;
       -webkit-filter: hue-rotate(90deg);
-  filter: hue-rotate(90deg);
+      filter: hue-rotate(90deg);
     }
     100% {
         transform: rotate(0.5deg);
@@ -154,16 +142,5 @@ animation-delay: 0.8s;
     }
     100% {
         transform: translate(30px);
-    }
-}
-
-
-@keyframes bgfader {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
     }
 }

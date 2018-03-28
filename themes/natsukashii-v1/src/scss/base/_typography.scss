@@ -1,22 +1,81 @@
-h1, h2 {
+body {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2 {
     color: white;
     font-weight: 400;
 }
 
 h1 {
-    font-size: 5em;
-    margin-bottom: 0.3em;
+    font-size: 4.5em;
+    margin-bottom: 0.1em;
 }
 
 h2 {
     font-size: 1.5em;
+    margin: 0;
 }
 
 a {
-    color: white;
-    text-decoration-color: pink!important;
-    text-decoration-skip: ink;
+    color: $green2;
     text-decoration: underline;
+    text-decoration-color: $rosegold;
+    text-decoration-skip: ink;
+}
 
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    position: relative;
+    padding: 1em;
+
+    h2 {
+        font-size: 3em;
+        color: $rosegold;
+        padding: 30px 0 10px  0;
+    }
+
+    p {
+        font-size: 1.2em;
+        padding:  0 0 10px 0;
+    }
+}
+
+/* Homepage
+* --------------------------------------- */
+.home {
+    h1 {
+        font-size: 3.5em;
+
+        @media (min-width: 600px) {
+            font-size: 5em;
+        }
+    }
+    h2 {
+        font-size: 3em;
+        padding-top: 0;
+    }
+    h3 {
+        font-size: 1.7em;
+        font-weight: 100;
+    }
+}
+
+
+.section {
+    text-align:center;
+}
+
+.lighttext {
+    color: white;
+
+    h2 {
+        color: #F0CAD0;
+    }
+
+    a {
+        color: $pink;
+    }
 }

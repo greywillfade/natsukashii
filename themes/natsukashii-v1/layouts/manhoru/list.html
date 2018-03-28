@@ -6,8 +6,7 @@
         $('#fullpage').fullpage({
             anchors: ['id'],
             autoScrolling: false,
-            fitToSection: false,
-            offsetSections:true
+            fitToSection: false
         });
     });
 </script>
@@ -16,9 +15,10 @@
     	<div class="section" id="section0">
             {{ range .Data.Pages }}
     		<div class="slide" style="background-color: {{.Params.bgcolour}};">
-                <div style="width: 350px; margin:0 auto;">{{ partial .Params.Illustration . }}</div>
+                <div class="illustration-holder">{{ partial .Params.Illustration . }}</div>
                 <h1>{{.Title}}</h1>
                 <h2>{{.Params.Engname}}</h2>
+                <p style="margin-top:2.5em;"><a href="{{ .Permalink }}" class="btn">See more</a></p>
     		</div>
             {{ end }}
     	</div>

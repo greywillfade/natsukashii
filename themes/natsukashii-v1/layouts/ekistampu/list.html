@@ -1,0 +1,35 @@
+{{ partial "base" . }}
+{{ partial "header" . }}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            anchors: ['id'],
+            autoScrolling: false,
+            sectionsColor: ['#B97375'],
+            fitToSection: false
+        });
+    });
+</script>
+
+    <div id="fullpage">
+    	<div class="section" id="section0">
+
+            <h1>Coming soon...</h1>
+
+            {{ range .Data.Pages }}
+    		<div class="slide" style="background-color: {{.Params.bgcolour}};">
+                <div style="width: 350px; margin:0 auto;">{{ partial .Params.Illustration . }}</div>
+                <h1>{{.Title}}</h1>
+                <h2>{{.Params.Engname}}</h2>
+    		</div>
+            {{ end }}
+    	</div>
+    </div>
+
+    <!--
+    <div class="wrap">
+    	Page content here
+    </div>-->
+
+{{ partial "footer" . }}
