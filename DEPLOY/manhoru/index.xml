@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manhoru on Natsukashii</title>
-    <link>http://example.org/manhoru/</link>
+    <link>http://natsukashii.art/manhoru/</link>
     <description>Recent content in Manhoru on Natsukashii</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/manhoru/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://natsukashii.art/manhoru/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>大月市</title>
-      <link>http://example.org/manhoru/ootsukishi/</link>
+      <link>http://natsukashii.art/manhoru/ootsukishi/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
       
-      <guid>http://example.org/manhoru/ootsukishi/</guid>
+      <guid>http://natsukashii.art/manhoru/ootsukishi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>浪速区</title>
-      <link>http://example.org/manhoru/naniwaku/</link>
+      <link>http://natsukashii.art/manhoru/naniwaku/</link>
       <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
       
-      <guid>http://example.org/manhoru/naniwaku/</guid>
+      <guid>http://natsukashii.art/manhoru/naniwaku/</guid>
       <description></description>
     </item>
     
