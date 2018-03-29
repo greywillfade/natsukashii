@@ -88,3 +88,13 @@
    background:#e1dddc;
    border-radius: 30px;
 }
+
+.colour-content {
+    height: 100vh;
+    width: 100vw;
+    background-color: $pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
