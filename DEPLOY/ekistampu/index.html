@@ -64,11 +64,13 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
+        var navheight = $('#header').height();
         $('#fullpage').fullpage({
             anchors: ['id'],
             autoScrolling: false,
             sectionsColor: ['#B97375'],
-            fitToSection: false
+            fitToSection: false,
+            paddingTop: navheight
         });
     });
 </script>
