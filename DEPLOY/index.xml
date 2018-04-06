@@ -6,15 +6,24 @@
     <description>Recent content on Natsukashii</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 11:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://natsukashii.art/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>原宿駅</title>
+      <link>http://natsukashii.art/ekistampu/harajukueki/</link>
+      <pubDate>Thu, 05 Apr 2018 11:00:00 +0000</pubDate>
+      
+      <guid>http://natsukashii.art/ekistampu/harajukueki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>大月市</title>
       <link>http://natsukashii.art/manhoru/ootsukishi/</link>
-      <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
+      <pubDate>Fri, 02 Mar 2018 12:00:00 +0000</pubDate>
       
       <guid>http://natsukashii.art/manhoru/ootsukishi/</guid>
       <description></description>
@@ -23,7 +32,7 @@
     <item>
       <title>浪速区</title>
       <link>http://natsukashii.art/manhoru/naniwaku/</link>
-      <pubDate>Thu, 02 Mar 2017 12:00:00 -0500</pubDate>
+      <pubDate>Thu, 01 Mar 2018 12:00:00 +0000</pubDate>
       
       <guid>http://natsukashii.art/manhoru/naniwaku/</guid>
       <description></description>

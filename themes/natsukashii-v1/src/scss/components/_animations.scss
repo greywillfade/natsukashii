@@ -22,6 +22,9 @@ animation: swirlyr2 3s normal infinite;
 .bgfade {
 animation: bgfader 3s normal infinite;
 }
+.fadein {
+    animation: kffadein 7s normal infinite;
+}
 .delay1 {
 animation-delay: 0.2s;
 }
@@ -90,6 +93,16 @@ transform: rotate(-25deg);
 
     100% {
     opacity: 0;
+    }
+}
+
+@keyframes kffadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

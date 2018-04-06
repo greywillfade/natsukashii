@@ -65,6 +65,10 @@ a {
         font-size: 1.7em;
         font-weight: 100;
     }
+
+    a {
+        color: $rosegold;
+    }
 }
 
 
@@ -82,4 +86,8 @@ a {
     a {
         color: $pink;
     }
+}
+
+.darktext {
+    color: $greyblue;
 }

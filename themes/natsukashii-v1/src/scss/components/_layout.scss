@@ -51,6 +51,15 @@
     }
 }
 
+.footer {
+    width: 100%;
+    background: #333;
+    text-align:center;
+    color: #f2f2f2;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
 
 
 /* Illustrations */
@@ -64,9 +73,9 @@
 }
 
 .home-img {
-    filter: opacity(0.1) invert(1);
-    width:150px;
-    margin-top: 7em;
+    background-image: url('/img/home-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .btn {
@@ -97,4 +106,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

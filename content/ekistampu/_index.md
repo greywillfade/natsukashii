@@ -1,3 +1,3 @@
 ---
-title: "Eki stampu"
+title: "駅スタンプ"
 ---

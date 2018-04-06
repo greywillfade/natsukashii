@@ -1,3 +1,3 @@
 ---
-title: "Manhoru"
+title: "マンホール"
 ---
