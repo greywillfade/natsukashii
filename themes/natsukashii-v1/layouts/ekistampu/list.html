@@ -18,7 +18,7 @@
     	<div class="section" id="section0">
             {{ range .Data.Pages }}
     		<div class="slide" style="background-color: {{.Params.bgcolour}};">
-                <div style="width: 350px; margin:0 auto;">{{ partial .Params.Illustration . }}</div>
+                <div class="illustration-holder">{{ partial .Params.Illustration . }}</div>
                 <h1 class="{{.Params.textcolour}}">{{.Title}}</h1>
                 <h2 class="{{.Params.textcolour}}">{{.Params.Engname}}</h2>
     		</div>
