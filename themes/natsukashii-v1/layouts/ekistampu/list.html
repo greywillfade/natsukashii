@@ -16,11 +16,12 @@
 
     <div id="fullpage">
     	<div class="section" id="section0">
-            {{ range .Data.Pages }}
+            {{ range .Data.Pages.ByDate }}
     		<div class="slide" style="background-color: {{.Params.bgcolour}};">
                 <div class="illustration-holder">{{ partial .Params.Illustration . }}</div>
                 <h1 class="{{.Params.textcolour}}">{{.Title}}</h1>
                 <h2 class="{{.Params.textcolour}}">{{.Params.Engname}}</h2>
+                <p style="margin-top:2.5em;"><a href="{{ .Permalink }}" class="btn">Read more</a></p>
     		</div>
             {{ end }}
     	</div>
