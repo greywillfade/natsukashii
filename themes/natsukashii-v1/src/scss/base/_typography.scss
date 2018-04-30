@@ -91,3 +91,20 @@ a {
 .darktext {
     color: $greyblue;
 }
+
+p.detail-subtitle {
+    color: #666666;
+    font-size: 1.7em;
+}
+
+.grid-content {
+
+    h3 {
+        font-size: 2em;
+        color: $greyblue;
+    }
+
+    p {
+        color: #333333;
+    }
+}

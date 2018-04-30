@@ -1,1 +1,55 @@
-hi
+{{ partial "base" . }}
+{{ partial "header" . }}
+
+<style>
+
+
+
+  .stampu-primary {
+      background-color: #F0CAD0;
+      padding-top: 2em;
+  }
+
+</style>
+
+<div class="stampu-primary">
+    <div class="wrap">
+        <h1 class="{{.Params.textcolour}}" lang="ja">{{.Title}}</h1>
+        <h2 class="{{.Params.textcolour}}">{{.Params.Engname}}</h2>
+        <p class="detail-subtitle">{{.Params.Subtitle}}</p>
+    </div>
+</div>
+
+<div class="grid-wrapper">
+  <!--<header class="grid-header">My header</header>-->
+
+  <article class="grid-content">
+    <h3>Shinjuku station, East Exit</h3>
+    <p>Many of the stamps depict different times, but for me this contrast is one of the most stark. </p>
+  </article>
+
+  <div class="block-a">
+      {{ partial .Params.Illustration . }}
+  </div>
+  <div class="block-b">This stamp was captured on Sunday, September 25th 2016, at the East exit (not Central East) of Shinjuku. It was downstairs, inside a ticket office in the right corner as you go in.</div>
+
+  <div class="block-c">
+      <img src="/img/content/trains/shinjuku1.jpg" alt="" />
+  </div>
+
+
+  <div class="grid-footer">
+    {{ if .PrevInSection }}
+        <p>Back in time:<br />
+        <a href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a></p>
+    {{ end }}
+    {{ if .NextInSection }}
+        <p>Forward in time:<br />
+        <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}</a></p>
+    {{ end }}
+
+  </div>
+</div>
+
+
+{{ partial "footer" . }}

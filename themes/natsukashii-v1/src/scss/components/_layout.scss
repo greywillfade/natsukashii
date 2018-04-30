@@ -110,3 +110,106 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+
+.stampu-primary {
+    h1 {
+        font-size: 5em;
+        font-weight: 600;
+        color: $rosegold;
+    }
+
+    h2 {
+        padding-top: 0;
+        font-weight: 600;
+        color: $darkgrey;
+    }
+}
+
+
+
+/* grid ------------------------------------ */
+
+
+
+.grid-wrapper {
+
+  max-width: 940px;
+  margin: 0 20px;
+  padding-top: 3em;
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 600px) {
+
+  /* no grid support? */
+  .block-a, .block-b, .block-c {
+    float: left;
+    width: 19.1489%;
+  }
+
+  .grid-content {
+    float: right;
+    width: 79.7872%;
+  }
+
+  .grid-wrapper {
+    margin: 0 auto;
+    grid-template-columns: 3fr 5fr;
+    grid-auto-rows: minmax(150px, auto);
+  }
+
+    .grid-footer {
+        grid-column: 2 ;
+        grid-row: 5;
+        /* needed for the floated layout */
+        clear: both;
+        background-color: $greyblue;
+    }
+
+  .block-a {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #e1dddc;
+    border-radius: 15px;
+  }
+
+  .block-b {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: $greyblue;
+    font-size: 1.2em;
+    padding: 3em;
+  }
+
+  .block-c {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: #e1dddc;
+  }
+
+  .grid-content {
+    grid-column: 2;
+    grid-row: 1 / 5;
+    background-color: #e1dddc;
+  }
+
+}
+
+.grid-wrapper > * {
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .grid-wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}

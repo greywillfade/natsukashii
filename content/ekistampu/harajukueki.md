@@ -6,4 +6,5 @@ illustration: "svg/harajukueki.html"
 bgcolour: "#e1dddc"
 textcolour: "darktext"
 url: /ekistampu/harajukueki/
+moreinfo: false
 ---

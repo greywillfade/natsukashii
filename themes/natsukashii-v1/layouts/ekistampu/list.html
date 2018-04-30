@@ -19,9 +19,9 @@
             {{ range .Data.Pages.ByDate }}
     		<div class="slide" style="background-color: {{.Params.bgcolour}};">
                 <div class="illustration-holder">{{ partial .Params.Illustration . }}</div>
-                <h1 class="{{.Params.textcolour}}">{{.Title}}</h1>
+                <h1 class="{{.Params.textcolour}}" lang="ja">{{.Title}}</h1>
                 <h2 class="{{.Params.textcolour}}">{{.Params.Engname}}</h2>
-                <p style="margin-top:2.5em;"><a href="{{ .Permalink }}" class="btn">Read more</a></p>
+                {{if eq .Params.moreinfo true}}<p style="margin-top:2.5em;"><a href="{{ .Permalink }}" class="btn">Read more</a></p>{{ end }}
     		</div>
             {{ end }}
     	</div>
