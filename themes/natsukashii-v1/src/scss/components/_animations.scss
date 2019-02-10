@@ -217,27 +217,32 @@ animation: cloudmove2 10s alternate infinite;
 
 
 .bird {
-	background-image: url("/img/content/trains/birdcells.svg");
+	background-image: url("/img/content/trains/birdcells2.svg");
 	background-repeat: no-repeat;
-	background-size: auto 100%;
-	width: 53px;
-	height: 28px;
+  background-size: auto 100%; 
+  width: 50px;
+  height: 30px;
 	will-change: background-position;
 	animation-name: fly-cycle;
-	animation-duration: 0.6s;
+	animation-duration: 0.55s; 
 	animation-delay: 0s;
 	animation-timing-function: steps(10);
-	animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 /* Animate the bird's fly cycle (in place) - step through cells */
 @keyframes fly-cycle {
-	100% {
-		background-position: -536px 0;
+  0% {
+		background-position: 0 0;
+  }
+
+  100% {
+		background-position: -500px 0;
 	}
 	
 }
 
+/* This is the bit that moves the bird across the stage */
 .bird-container {
 	position: absolute;
 	top: 0;
@@ -261,7 +266,6 @@ animation: cloudmove2 10s alternate infinite;
 	animation-duration: 4s;
 	
 }
-
 
 @keyframes fly-right-one {
 	
