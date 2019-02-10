@@ -6,10 +6,19 @@
     <description>Recent content on Natsukashii</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 29 Apr 2018 19:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Feb 2019 11:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://natsukashii.art/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>田町駅</title>
+      <link>http://natsukashii.art/ekistampu/tamachieki/</link>
+      <pubDate>Sat, 09 Feb 2019 11:00:00 +0000</pubDate>
+      
+      <guid>http://natsukashii.art/ekistampu/tamachieki/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>新宿駅</title>
