@@ -224,7 +224,7 @@ animation: cloudmove2 10s alternate infinite;
   height: 30px;
 	will-change: background-position;
 	animation-name: fly-cycle;
-	animation-duration: 0.55s; 
+	animation-duration: 0.5s; 
 	animation-delay: 0s;
 	animation-timing-function: steps(10);
   animation-iteration-count: infinite;
@@ -274,19 +274,19 @@ animation: cloudmove2 10s alternate infinite;
   }
 
   20% {
-    transform: scale(0.35) translate(220%, -3px);
+    transform: scale(0.35) translate(220%, -7px);
   }
   
   50% {
-    transform: scale(0.5) translate(550%, 3px);
+    transform: scale(0.4) translate(550%, 3px);
   }
 
   90% {
-    transform: scale(0.55) translate(1050%, -3px);
+    transform: scale(0.5) translate(1150%, -3px);
   }
 
 	100% {
-    transform: scale(0.6) translate(1100%, 0px) ;
+    transform: scale(0.5) translate(1300%, 0px) ;
 	}
 }
 
@@ -296,7 +296,7 @@ animation: cloudmove2 10s alternate infinite;
 		transform: scale(0.25) translate(0px, 30px);
   }
 	100% {
-		transform: scale(0.5) translate(2700%, -20px);
+		transform: scale(0.5) translate(2700%, -40px);
 	}
 	
 }
